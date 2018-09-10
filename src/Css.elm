@@ -1,7 +1,8 @@
-module Css exposing (..)
+module Css exposing (cssStyle)
 
 
-cssStyle = """
+cssStyle =
+    """
 
 body {
   padding: 0 10px;
@@ -30,4 +31,3 @@ td.alive {
   background-color: green;
 }
 """
-
